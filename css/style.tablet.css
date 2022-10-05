@@ -1,0 +1,59 @@
+.li-header a {
+    text-align: center;
+}
+
+
+/* section */
+
+.filter {
+    display:block
+}
+
+.filter p:first-child {
+    margin: 2rem 0 0.5rem 1rem;
+}
+
+.filter ul {
+    justify-content: center;
+    margin-top: 0rem;
+}
+
+.cell {
+    margin: 1rem;
+}
+
+/* Results Popular */
+
+.container {
+    flex-direction: column-reverse;
+}
+
+.popular {
+    padding: 1rem;
+    height: auto;
+}
+
+.popular-card {
+    margin: 0.4rem 0 1.5rem 0;
+    width: 100%;
+}
+
+.results {
+    margin: 1rem;
+    background: none;
+}
+
+.cards-container {
+    flex-direction: column;
+    margin: 0;
+}
+.card {
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+}
+
+/* footer */
+
+.footer-links {
+    margin: 2rem 6rem 2rem 4rem;
+}

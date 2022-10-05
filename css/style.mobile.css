@@ -1,0 +1,146 @@
+/* header */
+
+header {
+    flex-direction: column;
+    border-bottom: 2px solid var(--light-gray);
+}
+
+.nav {
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.li-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    font-size: 1.2rem;
+    padding: 2.5rem 3rem 1rem 3rem;
+    border: 2px solid transparent;
+}
+
+.li-header:hover {
+    border-top: none;
+    border-bottom:2px solid var(--blue);
+}
+
+
+.li-header a {
+    width: 100%;
+    height: 100%;
+}
+
+/* section Search*/
+
+
+.btn-search p {
+    display: none;
+}
+
+.btn-search {
+    position:absolute;
+    width: 50px; 
+    height: 100%;
+    border-radius: 15px;
+}
+
+.btn-search i {
+    display: block
+}
+
+.filter ul {
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:flex-start ;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+
+.cell {
+    margin: 0;
+}
+
+/* Results + popular*/
+
+
+
+
+.container {
+    flex-direction: column-reverse;
+}
+
+.results {
+    margin: 1rem;
+    background: none;
+}
+
+.results-title {
+    margin: 1.6rem 0 1rem 1rem;
+}
+
+.cards-container {
+    flex-direction: column;
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+}
+
+.popular {
+    margin: 0 0 2rem 0;
+    border-radius: 0;
+}
+
+.popular-cards-container {
+    display: flex;
+    align-items: center;
+    margin:1rem;
+}
+
+.popular-card {
+    width: 100%;
+    
+}
+
+.more {
+    margin: 0rem 0 1rem 2rem; 
+}
+
+/* toDo */
+
+.toDo-container {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.toDo-title {
+    margin: 1.6rem 0 2rem 1.8rem;
+}
+
+.toDo-card {
+    height:250px;
+    width: 95%; 
+    margin: 0 auto 0 auto;
+}
+
+/* footer */
+
+footer {
+    flex-direction: column;
+}
+
+
+.footer-links {
+    margin: 1.5rem 6rem 0.5rem 4rem;
+}
+
+
