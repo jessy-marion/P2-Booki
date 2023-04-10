@@ -2,15 +2,10 @@
 
 Premier projet fait lors de la formation "Developpeur web" d'**OpenClassrooms**
 
-
-
-
 ## Objectifs
-L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
-Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, vous travaillez en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. 
+Réalisation, à partir d'une maquette, de la partie frontend d'un site d'hébergement en HTLM / CSS. Adapté à toute les tailles d'écran ( responsive design )
 
-Sarah vous envoie un e-mail pour vous présenter l’avancée du projet.
 ## Technos
 
 - HTML
